@@ -11,13 +11,13 @@ BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(pytest)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	python%{pyver}dist(wheel)
+BuildRequires:	python%{pyver}dist(poetry-core)
 BuildArch:	noarch
 
 %description
 Crashtest is a Python library that makes exceptions handling and inspection easier.
 
 %files
-%license LICENSE.txt
 %doc README.md
 %{py_sitedir}/crashtest
 %{py_sitedir}/crashtest-*.*-info
