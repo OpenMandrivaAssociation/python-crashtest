@@ -1,7 +1,7 @@
 Summary:	Manage Python errors with ease
 Name:		python-crashtest
 Version:	0.4.1
-Release:	3
+Release:	4
 License:	MIT
 Group:		Development/Python
 URL:		https://pypi.org/project/crashtest/
